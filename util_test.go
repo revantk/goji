@@ -5,7 +5,7 @@ import (
 	"net/http/httptest"
 	"strings"
 
-	"goji.io/internal"
+	"github.com/revantk/goji/internal"
 	"golang.org/x/net/context"
 )
 

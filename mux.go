@@ -2,8 +2,7 @@ package goji
 
 import (
 	"net/http"
-
-	"goji.io/internal"
+	"github.com/revantk/goji/internal"
 	"golang.org/x/net/context"
 )
 
@@ -81,7 +80,7 @@ ServeHTTPC implements Handler.
 */
 func (m *Mux) ServeHTTPC(ctx context.Context, w http.ResponseWriter, r *http.Request) {
 	if m.root {
-		ctx = context.WithValue(ctx, internal.Path, r.URL.EscapedPath())
+		ctx = context.WithValue(ctx, internal.Path, r.URL.Path)
 	}
 	ctx = m.router.route(ctx, r)
 	m.handler.ServeHTTPC(ctx, w, r)

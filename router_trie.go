@@ -7,7 +7,7 @@ import (
 	"sort"
 	"strings"
 
-	"goji.io/internal"
+	"github.com/revantk/goji/internal"
 	"golang.org/x/net/context"
 )
 

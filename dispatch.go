@@ -2,8 +2,7 @@ package goji
 
 import (
 	"net/http"
-
-	"goji.io/internal"
+	"github.com/revantk/goji/internal"
 	"golang.org/x/net/context"
 )
 

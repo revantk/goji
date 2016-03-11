@@ -3,8 +3,8 @@ package pat
 import (
 	"sort"
 
-	"goji.io/internal"
-	"goji.io/pattern"
+	"github.com/revantk/goji/internal"
+	"github.com/revantk/goji/pattern"
 	"golang.org/x/net/context"
 )
 

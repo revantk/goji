@@ -4,8 +4,8 @@ import (
 	"net/http"
 	"testing"
 
-	"goji.io"
-	"goji.io/internal"
+	"github.com/revantk/goji"
+	"github.com/revantk/goji/internal"
 	"golang.org/x/net/context"
 )
 

@@ -9,9 +9,8 @@ package middleware
 
 import (
 	"net/http"
-
-	"goji.io"
-	"goji.io/internal"
+	"github.com/revantk/goji"
+	"github.com/revantk/goji/internal"
 	"golang.org/x/net/context"
 )
 
