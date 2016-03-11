@@ -13,7 +13,7 @@ to standardize on a few common interfaces may find this package useful.
 package pattern
 
 import (
-	"github.com/revantk/internal"
+	"github.com/revantk/goji/internal"
 	"golang.org/x/net/context"
 )
 

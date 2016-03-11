@@ -86,7 +86,7 @@ import (
 	"sort"
 	"strings"
 
-	"goji.io/pattern"
+	"github.com/revantk/goji/pattern"
 	"golang.org/x/net/context"
 )
 
